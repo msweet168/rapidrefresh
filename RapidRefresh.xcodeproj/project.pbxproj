@@ -12,6 +12,7 @@
 		515557FE1DF7B5DE00440767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515557FC1DF7B5DE00440767 /* Main.storyboard */; };
 		515558001DF7B5DE00440767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515557FF1DF7B5DE00440767 /* Assets.xcassets */; };
 		515558031DF7B5DE00440767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515558011DF7B5DE00440767 /* LaunchScreen.storyboard */; };
+		5155580B1DF7B6AE00440767 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5155580A1DF7B6AE00440767 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		515557FF1DF7B5DE00440767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		515558021DF7B5DE00440767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		515558041DF7B5DE00440767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5155580A1DF7B6AE00440767 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				515557F81DF7B5DE00440767 /* AppDelegate.swift */,
 				515557FA1DF7B5DE00440767 /* ViewController.swift */,
+				5155580A1DF7B6AE00440767 /* WebViewController.swift */,
 				515557FC1DF7B5DE00440767 /* Main.storyboard */,
 				515557FF1DF7B5DE00440767 /* Assets.xcassets */,
 				515558011DF7B5DE00440767 /* LaunchScreen.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					515557F41DF7B5DE00440767 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3TCCEYF5TG;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				515557FB1DF7B5DE00440767 /* ViewController.swift in Sources */,
+				5155580B1DF7B6AE00440767 /* WebViewController.swift in Sources */,
 				515557F91DF7B5DE00440767 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3TCCEYF5TG;
 				INFOPLIST_FILE = RapidRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Mitchell.RapidRefresh;
@@ -270,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3TCCEYF5TG;
 				INFOPLIST_FILE = RapidRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Mitchell.RapidRefresh;
